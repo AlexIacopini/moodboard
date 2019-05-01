@@ -6,7 +6,6 @@ const fetch=require("node-fetch");
 app.use(express.static("client"));
 var bodyParser=require("body-parser");
 app.use(bodyParser.urlencoded({extended:false}));
-// app.use(bodyParser.json({extended:false}));
 
 
 var fs=require("fs");
