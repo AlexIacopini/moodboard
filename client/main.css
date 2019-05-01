@@ -1,0 +1,26 @@
+
+.navbar-custom {
+  background-color: #0030004D;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #dddddd;
+}
+
+body{
+  background-image: url("piece.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  /* background-size: cover; */
+
+}

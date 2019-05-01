@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Moodboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="chopped.jpg">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div id="get_words" class="page-header text-center">
+      <h1>User's community Moodboard</h1>
+
+    </div>
+
+    <nav class="navbar navbar-expand-sm sticky-top navbar-custom border border-secondary">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span>&#9776;</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav-fill w-100 font-weight-bold">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Main Page</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="second.html">Favourites<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <p ></p>
+              <div id="text" class="border border-secondary rounded shadow w-100 bg-light">
+
+                <form action="./blog" method="post" id="form-login">
+                  <div class="form-group">
+                    <h6 class="text-center">Share what you are thinking about!</h6>
+                    <div class="col-12">
+                      <label for="password">Password:</label>
+                      <input id="password" type="text" class="form-control" >
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-12">
+                      <label for="theme">Theme of your thought:</label>
+                      <input type="text" class="form-control" id="theme">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-12">
+                      <label for="textID">Thought:</label>
+                      <textarea class="form-control" id="textID" rows="4" cols="80"></textarea>
+                    </div>
+                  </div>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col text-center">
+                          <p></p>
+                          <button class="btn btn-dark" type="submit">Share your thought!</button>
+
+                        </div>
+
+                      </div>
+                    </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="undertext" class="border border-secondary rounded shadow w-100 bg-light text-center">
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class=" col text-center">
+              <p></p>
+              <input type="button" id="buttonP" class="btn btn-dark" value="Click to show saved pictures">
+            </div>
+          </div>
+          <div class="row">
+            <div id="secPage" class="text-center">
+              <p></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
